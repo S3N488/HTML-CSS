@@ -1,0 +1,40 @@
+*{
+    font-size: large;
+    color: rgb(223, 220, 220);
+}
+div{
+    background-color: rgb(237, 158, 174);
+    width: 700px;
+}
+ol{
+    list-style: none;
+    counter-reset: my-counter;
+    padding: 20px;
+    background-color: rgba(237, 158, 174, 0.674);
+}
+
+ol li{
+    counter-increment: my-counter;
+}
+
+ol li::before{
+    content: counter(my-counter) ". ";
+    padding-left: 5px;
+}
+
+li{
+    margin: 10px;
+    padding: 20px; 
+    background: rgb(198, 99, 118);
+    
+}
+
+ol li::before{
+    background: rgb(198, 99, 118);
+    
+}
+
+span{
+    background-color: rgb(158, 53, 74);;
+    padding: 20px;
+}

@@ -1,0 +1,16 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 150%;
+}
+body{
+    background: rgb(186, 186, 186);
+    width: 1024px;
+    margin: 0 auto;
+}
+.grey-text{
+    color: grey;
+}
+
+.violet-text{
+    color: rgb(129, 79, 205);
+}
