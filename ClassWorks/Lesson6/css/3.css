@@ -1,0 +1,26 @@
+#form-call{
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	width: 500px;
+}
+input,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus{
+	border: black solid 3px;
+	outline: none;
+}
+
+input[type="submit"]{
+	background: green;
+}
+
+input:focus{
+	outline: black solid 3px;
+}
+input:valid{
+	border: 1px solid green;
+}
+input:invalid{
+	border: 1px solid red;
+}

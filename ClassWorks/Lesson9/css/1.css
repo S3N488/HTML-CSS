@@ -1,0 +1,188 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 15px;
+}
+.container {
+	width: 1440px;
+	margin: 0 auto;
+}
+
+ /* header */
+
+.header__nav {
+	height: 74px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header__menu {
+	display: flex;
+	gap: 2vw;
+	margin-left: 150px;
+	list-style: none;
+}
+.header__menu a {
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 30px;
+	letter-spacing: 0.4px;
+	color: #292F36;
+	text-decoration: none;
+}
+.header__menu a:hover {
+	color: #CDA274;
+}
+
+/* promo */
+.promo .container {
+	background: #CDA274 url(/Lesson9/img/bg.jpg) no-repeat;
+	/* position: absolute; */
+	width: 1440px;
+	height: 831px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+.promo__text{
+	background: rgba(0, 0, 0, 0);
+	position: relative;
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	color: #4D5053;
+	margin-left: 120px;
+}
+.promo__text h1 {
+	font-family: 'DM Serif Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 80px;
+	line-height: 96px;
+	width: 595px;
+	height: 192px;
+	text-align: left;
+	color: #292F36;
+}
+.group-button {
+	display: flex;
+	justify-content: left;
+	margin-top: 35px;
+}
+.button {
+	background: #292F36 url(/Lesson9/img/btn1.png);
+	width: 207px;
+	height: 71px;
+	box-sizing: border-box;
+	left: 0%;
+	right: 0%;
+	top: 0px;
+	border: 2px solid #292F36;
+	border-radius: 18px;
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	letter-spacing: 0.72px;
+	color: #FFFFFF;
+}
+.button:hover {
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.about .container{
+	width: 1200px;
+	position: absolute;
+	height: 634.61px;
+	left: 7.36%;
+	right: 9.31%;
+	top: 1063px;
+}
+.about__group {
+	display: inline-block;
+}
+.about__header {
+	width: 592px;
+	height: 581px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 54px;
+	color: #333333;
+}
+.about__header h1 {
+	font-family: 'DM Serif Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 65px;
+	letter-spacing: 0.22px;
+	color: #292F36;
+	margin-bottom: 42px;
+}
+.about__header p{
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 33px;
+	letter-spacing: 0.22px;
+	color: #4D5053;
+	width: 531;
+}
+.about__call{
+	margin-top: 40px;
+	background: #F4F0EC url(/Lesson9/img/call.png) no-repeat;
+	position: relative;
+	width: 93px;
+	height: 93px;
+	border-radius: 50%;
+}
+.about__call p{
+	width: 158px;
+	margin-left: 113px;
+}
+.group-button2 {
+	display: flex;
+	justify-content: left;
+	margin-top: 35px;
+	position: relative;
+}
+.button2 {
+	background: #292F36 url(/Lesson9/img/btn2.png);
+	width: 263px;
+	height: 71px;
+	box-sizing: border-box;
+	left: 0%;
+	right: 0%;
+	top: 0px;
+	border: 2px solid #292F36;
+	border-radius: 18px;
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	letter-spacing: 0.72px;
+	color: #FFFFFF;
+}
+.button2:hover {
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.about__group .about__image{
+	background: url(../img/bg2.png);
+	position: absolute;
+	width: 592px;
+	height: 635px;
+	left: 50.67%;
+	right: 0%;
+	top: 0px;
+	margin-left: 16px;
+}

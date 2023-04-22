@@ -1,0 +1,17 @@
+html,body,.container{
+	min-height: 100vh;
+}
+body{
+	background: black url(https://images.unsplash.com/photo-1466853817435-05b43fe45b39?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1099&q=80);
+	background-size: cover;
+	background-position: 50% top;
+	background-attachment: fixed;
+}
+.container{
+	width: 1024px;
+	margin: 0 auto;
+}
+.container_bg{
+	background: rgba(200, 200, 200, .7);
+	padding: 3rem;
+}

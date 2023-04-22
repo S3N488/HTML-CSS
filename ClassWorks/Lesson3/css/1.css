@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul,ol{
+	list-style: none;
+}
+ul{
+	margin:  5px 0 0 20px;
+}
+ul ol{
+	margin: 5px 0 0 20px;
+}
+ul>li::before{
+	content: '\f00c';
+	font-family: 'Fontawesome';
+}
+ul>li>ol>li::before{
+	font-family: 'Fontawesome';
+	margin-right: 10px;
+	font-size: 14px;
+}
+ul>li>ol>li::after{
+	content: ';';
+}
+.winter>li::before{
+	color: blue;
+	font-family: 'Fontawesome';
+	content: '\f2dc';
+}
+.spring>li::before{
+	color: green;
+	font-family: 'Fontawesome';
+	content: '\f099';
+}
+.summer>li::before{
+	color: orange;
+	font-family: 'Fontawesome';
+	content: '\f185';
+}
+.autumn>li::before{
+	color: yellowgreen;
+	font-family: 'Fontawesome';
+	content: '\f0e9';
+}

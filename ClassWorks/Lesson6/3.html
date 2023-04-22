@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../Lesson6/css/3.css">
+	<title>Document</title>
+</head>
+<body>
+	<section class="call">
+		<form action="" method="get" name="form-call" id="form-call">
+			<label for="username">Ваше имя</label>
+			<input type="text" placeholder="Ваше имя" name="username" id="username">
+
+			<label for="usertel">Ваш телефон*</label>
+			<input type="tel" placeholder="Ваш телефон*" name="usertel" id="usertel" required>
+
+			<label for="usermail">Ваша почта*</label>
+			<input type="email" name="usermail" id="usermail" required placeholder="Ваша почта">
+
+			<label for="time">Удобное время для звонка</label>
+			<input type="date" placeholder="Удобное время для звонка" name="time" id="time">
+
+			<label >как к вам обращаться</label>
+			
+			<label for="pers[1]">Человек<input type="radio" value="Человек" name="radio" id="pers[1]"></label>
+			<label for="pers[2]">Женщина<input type="radio" value="Женщина" name="radio" id="pers[2]"></label>
+
+			<label>Ваше образование	</label>
+			<label for="learning1">
+				<input type="checkbox" value="1" name="learning" id="learning1"> Нету
+			</label>
+			<label for="learning2">
+				<input type="checkbox" value="2" name="learning" id="learning2"> Школа
+			</label>
+			<label for="learning3">
+				<input type="checkbox" value="3" name="learning" id="learning3"> Колледж
+			</label>
+			<label for="learning4">
+				<input type="checkbox" value="4" name="learning" id="learning4"> Высшее
+			</label>
+			<input type="submit" value="Отправить" id="submituser" name="submituser">
+		</form>
+	</section>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.heart-block{
+	width: 500px;
+	height: 500px;
+	border: 2px solid black;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	background: grey;
+}
+img{
+	width: 70%;
+	height: auto;
+	object-fit: cover;
+	animation: heart 2s steps(60,end) infinite;
+}
+@keyframes heart{
+	0%{transform: scale(1);filter: grayscale(100%);}
+	50%{transform: scale(1.5);filter: grayscale(0%);}
+	100%{transform: scale(1);filter: grayscale(100%);}
+}
